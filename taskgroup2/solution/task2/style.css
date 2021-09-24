@@ -10,7 +10,7 @@ header {
   margin: auto;
   width: 70%;
   background-color: yellow;
-  height: 75px;
+  height: 70px;
 }
 header h2 {
   margin: 0;
@@ -19,18 +19,27 @@ main {
   background-color: royalblue;
   margin: auto;
   width: 70%;
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: row-reverse;
+  overflow: hidden;
 }
 aside {
-  background-color: red;
-  width: 100%;
-
-
+  background-color: gray;
+  flex-basis: 150px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-top: 15px;
 }
-.content{
-  background-color: salmon;
+.content {
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 12px;
+  
+}
+.content p{
+  margin-top: 15px;
+  max-width: 90%;
 }
 footer {
   background-color: gray;

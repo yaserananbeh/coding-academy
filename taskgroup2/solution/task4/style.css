@@ -1,0 +1,10 @@
+.property{
+  color: blue;
+}
+.value{
+  color: green;
+}
+pre{
+  font-weight: 600;
+  font-size: larger;
+}

@@ -1,0 +1,13 @@
+h1:nth-child(even){
+  text-align: right;
+}
+p:nth-child(even){
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1:nth-child(1){
+  color: orange;
+}
+h1 + p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
