@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: wheat;
+}
+header {
+  margin: auto;
+  width: 70%;
+  background-color: yellow;
+  height: 75px;
+}
+header h2 {
+  margin: 0;
+}
+main {
+  background-color: royalblue;
+  margin: auto;
+  width: 70%;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+aside {
+  background-color: red;
+  width: 100%;
+
+
+}
+.content{
+  background-color: salmon;
+}
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  position: fixed;
+  min-height: 25px;
+  bottom: 0;
+  width: 100%;
+}
