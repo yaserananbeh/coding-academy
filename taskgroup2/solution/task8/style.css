@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+.box{
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  display: inline-block;
+  border: 1.5px groove black;
+  
+}
+.container{
+  margin-top: 30px;
+}
+.box:nth-child(odd){
+  background-color: yellow;
+  margin-bottom: 35px;
+}
+

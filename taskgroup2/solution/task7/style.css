@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+main ul ul li{
+  color: blue;
+}
+main ul li a {
+  color: red;
+  font-weight: bolder;
+}
+main ul ul ul{
+  list-style-type: none;
+}
+main ul li:nth-child(1){
+  font-weight: 900;
+}
+main p > a{
+  color: orange;
+}
+main p:nth-child(1){
+  color: blue;
+}
+main p:nth-last-child(3) a{
+  background-color: yellow;
+  color: rgb(128, 14, 14);
+}
+ul{
+  margin: 10px;
+}

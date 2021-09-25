@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+main {
+  margin: 0;
+  background-color: rgb(224, 253, 117);
+  overflow: auto;
+}
+main h1 {
+  padding: 15px 10px;
+}
+article {
+  width: 75%;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 10px 15px;
+  padding: 20px 5px;
+}
+.ipsum {
+  background-color: chocolate;
+}
+.quis {
+  background-color: yellow;
+}
+.ipsum,.quis{
+  font-weight: 900;
+  padding:1px 5px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+article:nth-child(4) {
+border: 2px dotted red;
+}
+article:nth-child(4) p {
+border: 2px dotted red;
+}
+article:nth-child(4) {
+  color: red;
+  }
