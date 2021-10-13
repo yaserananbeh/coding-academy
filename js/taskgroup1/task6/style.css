@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+}
+section{
+    margin: 4px;
+    border: 1px solid black;
+}
+.sectionHeader{
+    background-color: rgb(192, 192, 192);
+}
+main section .sectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sectionContent {
+    padding: 15px 5px;
+    display: none;
+}
+.sectionContent a{
+    display: block;
+    margin: 10px 0;
+}

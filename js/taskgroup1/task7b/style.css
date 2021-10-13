@@ -1,0 +1,21 @@
+.songsContainer{
+    margin: 15px 0;
+}
+button{
+    cursor: pointer;
+}
+.oneSong{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding:15px 5px; */
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 0px 5px rgb(0, 0, 0);
+    margin: 5px 0;
+}
+.deleteBtn{
+    cursor: pointer;
+    font-size: x-large;
+}

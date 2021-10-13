@@ -1,0 +1,96 @@
+.coloringGrid{
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-template-rows: repeat(5,50px);
+    gap: 2px;
+}
+.colorBox{
+    cursor: pointer;
+}
+.colorBox1{
+    background-color: rgb(0, 0, 0);
+}
+.colorBox2{
+    background-color: rgb(69, 69, 69);
+}
+.colorBox3{
+    background-color: rgb(69, 69, 69);
+}
+.colorBox4{
+    background-color: rgb(184, 184, 184);
+}
+.colorBox5{
+    background-color: rgb(245, 245, 245);
+}
+.colorBox6{
+    background-color: rgb(255, 0, 0);
+}
+.colorBox7{
+    background-color: rgb(181, 0, 0);
+}
+.colorBox8{
+    background-color: rgb(135, 0, 0);
+}
+.colorBox9{
+    background-color: rgb(71, 0, 0);
+}
+.colorBox10{
+    background-color: rgb(23, 0, 0);
+}
+.colorBox11{
+    background-color: rgb(71, 4, 34);
+}
+.colorBox12{
+    background-color: rgb(105, 4, 49);
+}
+.colorBox13{
+    background-color: rgb(143, 14, 72);
+}
+.colorBox14{
+    background-color: rgb(179, 7, 84);
+}
+.colorBox15{
+    background-color: rgb(252, 0, 113);
+}
+.colorBox16{
+    background-color: rgb(0, 29, 252);
+}
+.colorBox17{
+    background-color: rgb(25, 0, 189);
+}
+.colorBox18{
+    background-color: rgb(32, 14, 150);
+}
+.colorBox19{
+    background-color: rgb(18, 5, 102);
+}
+.colorBox20{
+    background-color: rgb(20, 13, 66);
+}
+.colorBox21{
+    background-color: rgb(72, 255, 0);
+}
+.colorBox22{
+    background-color: rgb(57, 201, 0);
+}
+.colorBox23{
+    background-color: rgb(37, 130, 0);
+}
+.colorBox24{
+    background-color: rgb(28, 97, 0);
+}
+.colorBox25{
+    background-color: rgb(18, 61, 0);
+}
+
+.colorViewer{
+    box-shadow: 2px 0px 5px blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin:10px 0;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}

@@ -1,0 +1,25 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    cursor: pointer;
+}
+.box-blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    cursor: pointer;
+}
+.box-green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    cursor: pointer;
+}
+.box-red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    cursor: pointer;
+}

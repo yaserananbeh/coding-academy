@@ -1,0 +1,20 @@
+body{
+    font-weight: 900;
+}
+span{
+    color:red;
+}
+input[type="submit"]{
+    background-color: white;
+    cursor: pointer;
+    margin: 5px 0;
+}
+#submit{
+    display: none;
+}
+.pass1Error,.pass2Error{
+    display: none;
+}
+.active{
+    display: block;
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.imageContainer{
+    width: 50%;
+}
