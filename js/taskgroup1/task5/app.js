@@ -11,6 +11,11 @@ function checkPass1(){
         pass1Error.style.display="inline"
         submitBtn.style.display="none"
     }
+    else if(pass2Input.value!=pass1Input.value){
+        pass1Error.innerHTML="doesn't match"
+        pass1Error.style.display="inline"
+        submitBtn.style.display="none"
+    }
     else{
         pass1Error.style.display="none"
     }
@@ -23,6 +28,7 @@ function checkPass2(){
         submitBtn.style.display="none"
     }
     else{
+        pass1Error.style.display="none"
         pass2Error.style.display="none"
         submitBtn.style.display="block"
     }
